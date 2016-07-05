@@ -18,7 +18,7 @@ if (!fs.existsSync(baseDir)) {
     fs.mkdirSync(baseDir);
 }
 
-var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD"; // limit 100";
+var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";// limit 200";
 
 if(entity){
 	sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM = "+entity+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
@@ -250,11 +250,13 @@ connection.query(sql,function(err, rows) {
             fs.writeFile(tmpFile3, csv5, function(err) {
                 if (err)
                     throw err;
+                if(lastEntity + lastReport == thisHospID + thisReportID){
+                	process.exit(0);
+                }
                 //console.log(tmpFile3 + ' saved');
             }); 
-            if(lastEntity + lastReport == thisHospID + thisReportID){
-            	process.exit(0);
-            }
+            
+            
            
             
         }); // end connection2 callback
