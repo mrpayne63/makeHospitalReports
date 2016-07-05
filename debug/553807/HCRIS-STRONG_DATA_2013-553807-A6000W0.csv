@@ -1,0 +1,8 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 553807"," Report A6000W0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[553807] Report(A6000W0)","Entity[553807] Report(A6000W0[00000])","Entity[553807] Report(A6000W0[00100])", ,"Entity[553807] Report(A6000W0[00300])","Entity[553807] Report(A6000W0[00400])","Entity[553807] Report(A6000W0[00500])", ,"Entity[553807] Report(A6000W0[00700])","Entity[553807] Report(A6000W0[00800])","Entity[553807] Report(A6000W0[00900])"
+"Line(00100)","23 HOUR UNIT ROUTINE COSTS","W", ,"77","791037","144525", ,"30","530984","112085"
+"Line(00200)","23 HOUR UNIT ROUTINE COSTS","W", , , , , ,"30","231821","30143"
+"Line(00300)","23 HOUR UNIT ROUTINE COSTS","W", , , , , ,"30","28232","2297"

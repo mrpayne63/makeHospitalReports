@@ -1,0 +1,6 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 572875"," Report A600BP0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[572875] Report(A600BP0)","Entity[572875] Report(A600BP0[00000])","Entity[572875] Report(A600BP0[00100])", ,"Entity[572875] Report(A600BP0[00300])", ,"Entity[572875] Report(A600BP0[00500])", ,"Entity[572875] Report(A600BP0[00700])", ,"Entity[572875] Report(A600BP0[00900])"
+"Line(00100)","INFUSION","BP", ,"90", ,"378682", ,"30", ,"378682"

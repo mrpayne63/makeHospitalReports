@@ -1,0 +1,8 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 572851"," Report A700003 ","-------------","-------------","-----------",""
+"","","","","","Acquisitions","","","Disposals","","Fully"
+"","","","","Beginning","","","","and","Ending","Depreciated"
+"","","Description","","Balances","Purchases","Donation","Total","Retirements","Balance","Assets"
+"","","","","1","2","3","4","5","6","7"
+"Entity[572851] Report(A700003)", , , , ,"Entity[572851] Report(A700003[00400])", , , , ,"Entity[572851] Report(A700003[00900])", ,"Entity[572851] Report(A700003[01100])","Entity[572851] Report(A700003[01200])", , ,"Entity[572851] Report(A700003[01500])"
+"Line(00100)", , , , ,"1", , , , ,"24408113", ,"2165385","1150633", , ,"27724131"
+"Line(00200)", , , , , , , , , ,"39131912", ,"2782664","1246519", , ,"43161095"

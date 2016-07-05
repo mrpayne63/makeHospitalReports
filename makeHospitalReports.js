@@ -2,6 +2,8 @@ var getHeaderFileName = require('./getHeaderFileName.js');
 var fs = require('fs');
 var mysql = require('mysql');
 var entity = process.argv[2];
+var lastEntity;
+var lastReport;
 var schema = 'HCRIS';
 var table = 'STRONG_DATA_2013';
 var tmpSheetLetter = 'FIRST';
@@ -16,7 +18,7 @@ if (!fs.existsSync(baseDir)) {
     fs.mkdirSync(baseDir);
 }
 
-var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
+var sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD"; // limit 100";
 
 if(entity){
 	sql = "select RPT_REC_NUM,WKSHT_CD from "+schema+"."+table+" where RPT_REC_NUM = "+entity+" group by RPT_REC_NUM,WKSHT_CD order by RPT_REC_NUM,WKSHT_CD";
@@ -86,7 +88,9 @@ connection.query(sql,function(err, rows) {
      var thisReportHeared = new Array();
      var thisReportHearedCSV = '';
      var tmpLine0 = new Array();
-     
+     lastEntity = rows[rows.length-1].RPT_REC_NUM;
+     lastReport = rows[rows.length-1].WKSHT_CD;
+     console.log("Last Report " + lastEntity + " " +lastReport );
 	for (i = 0; i < rows.length; i++) {
         tmpLine0[0] = rows[i].WKSHT_CD + ' Report';
         sql2 = "select RPT_REC_NUM,WKSHT_CD,LINE_NUM,CLMN_NUM,item myvalue from "+schema+"."+table
@@ -203,7 +207,7 @@ connection.query(sql,function(err, rows) {
 				fs.writeFile(myfile2, mycsv, function(err) {
 					if (err)
 						throw err;
-					console.log(myfile2 + ' saved');
+					//console.log(myfile2 + ' saved');
 				});
 			}
 			sheetArray = sheetArray.concat(reportArray2);
@@ -233,7 +237,7 @@ connection.query(sql,function(err, rows) {
 				fs.writeFile(tmpFile2, csv4, function(err) {
 					if (err)
 						throw err;
-					console.log(tmpFile2 + ' saved');
+					//console.log(tmpFile2 + ' saved');
 				});
 			}
 			var tmpFile3 = mydir + '/'+thisHospID+'-Sheet_' + tmpSheetLetter + '.csv';
@@ -246,8 +250,12 @@ connection.query(sql,function(err, rows) {
             fs.writeFile(tmpFile3, csv5, function(err) {
                 if (err)
                     throw err;
-                console.log(tmpFile3 + ' saved');
+                //console.log(tmpFile3 + ' saved');
             }); 
+            if(lastEntity + lastReport == thisHospID + thisReportID){
+            	process.exit(0);
+            }
+           
             
         }); // end connection2 callback
 

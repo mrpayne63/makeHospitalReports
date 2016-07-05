@@ -1,0 +1,7 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 565497"," Report H11002* ","-------------","-------------","-----------",""
+"","----","NO HEADER "," -------- ","NO HEADER"," ------- ","","","","","",""
+"Entity[565497] Report(H11002*)", ,"Entity[565497] Report(H11002*[00100])","Entity[565497] Report(H11002*[00200])","Entity[565497] Report(H11002*[00300])","Entity[565497] Report(H11002*[00400])","Entity[565497] Report(H11002*[00500])"
+"Line(00100)", ,"CAPITAL","CAPITAL","PLANT","TRANS-","ADMINIS-"
+"Line(00200)", ,"BLDGS &","MOVABLE","OPER. &","PORTAT-","TRATIVE &"
+"Line(00300)", ,"FIXTURES","EQUIPMENT","MAINT.","ION","GENERAL"
+"Line(00400)", ,"SQUARE","DOLLAR","SQUARE","MILEAGE","ACCUM."

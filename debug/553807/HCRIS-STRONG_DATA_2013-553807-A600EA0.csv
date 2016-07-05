@@ -1,0 +1,8 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 553807"," Report A600EA0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[553807] Report(A600EA0)","Entity[553807] Report(A600EA0[00000])","Entity[553807] Report(A600EA0[00100])", ,"Entity[553807] Report(A600EA0[00300])","Entity[553807] Report(A600EA0[00400])","Entity[553807] Report(A600EA0[00500])", ,"Entity[553807] Report(A600EA0[00700])","Entity[553807] Report(A600EA0[00800])","Entity[553807] Report(A600EA0[00900])"
+"Line(00100)","TRANSPLANT PROGRAM COSTS","EA", ,"30","577747","55975", ,"105","350794","33909"
+"Line(00200)","TRANSPLANT PROGRAM COSTS","EA", ,"31","577747","55975", ,"107","1052792","87963"
+"Line(00300)","TRANSPLANT PROGRAM COSTS","EA", ,"90","1155494","111950", ,"106","907402","102028"

@@ -1,0 +1,6 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 549652"," Report A600DA0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[549652] Report(A600DA0)","Entity[549652] Report(A600DA0[00000])","Entity[549652] Report(A600DA0[00100])", ,"Entity[549652] Report(A600DA0[00300])", ,"Entity[549652] Report(A600DA0[00500])", ,"Entity[549652] Report(A600DA0[00700])", ,"Entity[549652] Report(A600DA0[00900])"
+"Line(00100)","SCIENCE PARK UTILITY","DA", ,"13", ,"3302912", ,"7", ,"3302912"

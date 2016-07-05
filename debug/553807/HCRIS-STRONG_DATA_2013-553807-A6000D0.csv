@@ -1,0 +1,8 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 553807"," Report A6000D0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[553807] Report(A6000D0)","Entity[553807] Report(A6000D0[00000])","Entity[553807] Report(A6000D0[00100])", ,"Entity[553807] Report(A6000D0[00300])","Entity[553807] Report(A6000D0[00400])","Entity[553807] Report(A6000D0[00500])", ,"Entity[553807] Report(A6000D0[00700])","Entity[553807] Report(A6000D0[00800])","Entity[553807] Report(A6000D0[00900])"
+"Line(00100)","BIRTHING CENTER TO NURSERY PT 1","D", ,"30","1462269","220343", ,"52","2943912","443605"
+"Line(00200)","BIRTHING CENTER TO NURSERY PT 1","D", ,"43","1481643","223262"
+"Line(00300)","BIRTHING CENTER TO NURSERY PT 1","D", ,"30","64251","21278", ,"52","64251","21278"

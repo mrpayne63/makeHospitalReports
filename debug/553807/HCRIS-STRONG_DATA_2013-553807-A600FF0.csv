@@ -1,0 +1,8 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 553807"," Report A600FF0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[553807] Report(A600FF0)","Entity[553807] Report(A600FF0[00000])","Entity[553807] Report(A600FF0[00100])", ,"Entity[553807] Report(A600FF0[00300])", ,"Entity[553807] Report(A600FF0[00500])", ,"Entity[553807] Report(A600FF0[00700])", ,"Entity[553807] Report(A600FF0[00900])","Entity[553807] Report(A600FF0[01000])"
+"Line(00100)","GAIN(LOSS) FROM THE SALE OF EQUIP","FF", ,"1", ,"183376", , , , ,"9"
+"Line(00200)","GAIN(LOSS) FROM THE SALE OF EQUIP","FF", ,"2", ,"104429", , , , ,"9"
+"Line(00300)","GAIN(LOSS) FROM THE SALE OF EQUIP","FF", , , , , ,"5", ,"287805"

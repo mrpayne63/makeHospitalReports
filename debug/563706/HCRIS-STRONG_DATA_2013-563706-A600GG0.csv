@@ -1,0 +1,8 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 563706"," Report A600GG0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[563706] Report(A600GG0)","Entity[563706] Report(A600GG0[00000])","Entity[563706] Report(A600GG0[00100])", ,"Entity[563706] Report(A600GG0[00300])","Entity[563706] Report(A600GG0[00400])","Entity[563706] Report(A600GG0[00500])", ,"Entity[563706] Report(A600GG0[00700])","Entity[563706] Report(A600GG0[00800])","Entity[563706] Report(A600GG0[00900])"
+"Line(00100)","OP RENAL IS","GG", ,"74","597279", , ,"76","597279"
+"Line(00200)","OP RENAL IS","GG", ,"74", ,"167927", ,"76", ,"167927"
+"Line(00300)","OP RENAL IS","GG", ,"74", ,"182433", ,"15", ,"182433"

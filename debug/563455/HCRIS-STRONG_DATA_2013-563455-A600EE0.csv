@@ -1,0 +1,7 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 563455"," Report A600EE0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[563455] Report(A600EE0)","Entity[563455] Report(A600EE0[00000])","Entity[563455] Report(A600EE0[00100])", ,"Entity[563455] Report(A600EE0[00300])","Entity[563455] Report(A600EE0[00400])","Entity[563455] Report(A600EE0[00500])", ,"Entity[563455] Report(A600EE0[00700])","Entity[563455] Report(A600EE0[00800])","Entity[563455] Report(A600EE0[00900])"
+"Line(00100)","ENTERAL FEEDINGS","EE", ,"73","23429","4282", ,"10","86321","615842"
+"Line(00200)","ENTERAL FEEDINGS","EE", ,"75","86321","615842", ,"5","23429","4282"

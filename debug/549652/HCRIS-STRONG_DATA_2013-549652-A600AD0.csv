@@ -1,0 +1,6 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 549652"," Report A600AD0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[549652] Report(A600AD0)","Entity[549652] Report(A600AD0[00000])","Entity[549652] Report(A600AD0[00100])", ,"Entity[549652] Report(A600AD0[00300])", ,"Entity[549652] Report(A600AD0[00500])", ,"Entity[549652] Report(A600AD0[00700])", ,"Entity[549652] Report(A600AD0[00900])"
+"Line(00100)","LINEN EXPENSE","AD", ,"8", ,"4444981", ,"14", ,"4444981"

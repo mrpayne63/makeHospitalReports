@@ -1,0 +1,7 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 572875"," Report A600BW0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[572875] Report(A600BW0)","Entity[572875] Report(A600BW0[00000])","Entity[572875] Report(A600BW0[00100])", ,"Entity[572875] Report(A600BW0[00300])","Entity[572875] Report(A600BW0[00400])", , ,"Entity[572875] Report(A600BW0[00700])","Entity[572875] Report(A600BW0[00800])"
+"Line(00100)","CAT SCAN & MRI SALARY","BW", ,"57","5414496", , ,"54","9731857"
+"Line(00200)","CAT SCAN & MRI SALARY","BW", ,"58","4317361"

@@ -1,0 +1,6 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 549652"," Report A600CL0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[549652] Report(A600CL0)","Entity[549652] Report(A600CL0[00000])","Entity[549652] Report(A600CL0[00100])", ,"Entity[549652] Report(A600CL0[00300])","Entity[549652] Report(A600CL0[00400])","Entity[549652] Report(A600CL0[00500])", ,"Entity[549652] Report(A600CL0[00700])","Entity[549652] Report(A600CL0[00800])","Entity[549652] Report(A600CL0[00900])"
+"Line(00100)","RSCH DEPT ADMINISTRATION","CL", ,"13","54266222","8734075", ,"191","54266222","8734075"

@@ -1,0 +1,6 @@
+"Schema: HCRIS TABLE: STRONG_DATA_2013","----------"," Entity 553807"," Report A600II0 ","-------------","-------------","-----------",""
+"","","CODE","","","","","","","","","A-7"
+"","EXPLANATION OF RECLASSIFICATION(S)","-1","COST CENTER","LINE #","SALARY","OTHER","COST CENTER","LINE #","SALARY","OTHER","Ref."
+"","","1","2","3","4","5","6","7","8","9","10"
+"Entity[553807] Report(A600II0)","Entity[553807] Report(A600II0[00000])","Entity[553807] Report(A600II0[00100])", ,"Entity[553807] Report(A600II0[00300])","Entity[553807] Report(A600II0[00400])","Entity[553807] Report(A600II0[00500])", ,"Entity[553807] Report(A600II0[00700])","Entity[553807] Report(A600II0[00800])","Entity[553807] Report(A600II0[00900])"
+"Line(00100)","ANESTHESIOLOGY 236553","II", ,"50","29923","21956", ,"53","29923","21956"
